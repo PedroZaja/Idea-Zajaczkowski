@@ -90,6 +90,11 @@ footer{
     margin-left: 15px;
     
 }
+
+.logo:hover{
+    transform: scale(1.2)
+}
+
 .nombreDeLaPagina{
     font-size: 100px;
     text-align: right;
@@ -178,6 +183,7 @@ footer{
     border-left:solid 1px black;
     font-weight: 600;
     
+    
 }
 
 .boton_formulario{
@@ -202,7 +208,9 @@ footer{
     width: 300px;
     height: 40px;
     top: 10px;
+    
 }
+
 .formulario_input_mensaje{
     height: 100px;
     position: relative;
@@ -230,14 +238,13 @@ footer{
 
 .fotosGaleria{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 10% 40%;
     grid-template-rows: 400px 400px;
     justify-content: space-around;
     justify-items: center;
+    align-items: center;
     margin: 20px;
     padding: 20px;
-
-    
 }
 
 .imagenAntes1{
@@ -245,6 +252,11 @@ footer{
     border-right:solid 5px rgb(195, 90, 236);
     border-bottom:solid 5px rgb(195, 90, 236);
     border-left:solid 5px rgb(195, 90, 236);
+}
+
+.imagenAntes1:hover, .imagenAntes2:hover, .imagenDespues1:hover, .ImagenDespues2:hover{
+    transform: scale(1.2)
+    
 }
 
 .imagenAntes2{
@@ -317,6 +329,10 @@ footer{
 .fa-twitch{
     color: violet;
     margin: 15px;
+}
+
+.fa-instagram:hover, .fa-facebook:hover, .fa-whatsapp:hover, .fa-youtube:hover, .fa-twitch:hover{
+    transform: scale(1.5)
 }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
@@ -446,6 +462,8 @@ footer{
         margin-top: 0;
         margin-bottom: 20px;
     }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
