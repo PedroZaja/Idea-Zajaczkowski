@@ -57,11 +57,13 @@ footer {
   font-style: arial;
   text-align: center;
   margin-top: 20px;
-  text-decoration: underline; }
+  text-decoration: underline;
+  font-family: 'Roboto', sans-serif;  }
 
 .descripcionDeLaPaginaInicio {
   font-size: 35px;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Roboto', sans-serif;  }
 
 .logo {
   position: fixed;
@@ -73,12 +75,14 @@ footer {
   font-size: 100px;
   text-align: right;
   text-decoration: underline;
-  margin-right: 20px; }
+  margin-right: 20px;
+  font-family: 'Roboto', sans-serif;  }
 
 .descripcionDeLaPagina {
   font-size: 35px;
   text-align: center;
-  line-height: 40px; }
+  line-height: 40px;
+  font-family: 'Roboto', sans-serif;  }
 
 .footer {
   text-align: center;
