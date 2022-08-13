@@ -84,6 +84,11 @@ footer {
   line-height: 40px;
   font-family: 'Roboto', sans-serif;  }
 
+  .carrousell_margen{
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  
+
 .footer {
   text-align: center;
   margin-bottom: 10px;
@@ -166,52 +171,6 @@ footer {
   text-align: center;
   width: 300px;
   top: 27px; }
-
-.galeriaTitulo {
-  display: grid;
-  font-size: 50px;
-  grid-template-columns: 50% 50%;
-  justify-content: space-around;
-  align-items: center;
-  justify-items: center;
-  text-decoration: underline; }
-
-.fotosGaleria {
-  display: grid;
-  grid-template-columns: 40% 10% 40%;
-  grid-template-rows: 400px 400px;
-  justify-content: space-around;
-  justify-items: center;
-  align-items: center;
-  margin: 20px;
-  padding: 20px; }
-
-.imagenAntes1 {
-  border-top: solid 5px #c35aec;
-  border-right: solid 5px #c35aec;
-  border-bottom: solid 5px #c35aec;
-  border-left: solid 5px #c35aec; }
-
-.imagenAntes1:hover, .imagenAntes2:hover, .imagenDespues1:hover, .ImagenDespues2:hover {
-  transform: scale(1.2); }
-
-.imagenAntes2 {
-  border-top: solid 5px #c35aec;
-  border-right: solid 5px #c35aec;
-  border-bottom: solid 5px #c35aec;
-  border-left: solid 5px #c35aec; }
-
-.imagenDespues1 {
-  border-top: solid 5px #c35aec;
-  border-right: solid 5px #c35aec;
-  border-bottom: solid 5px #c35aec;
-  border-left: solid 5px #c35aec; }
-
-.ImagenDespues2 {
-  border-top: solid 5px #c35aec;
-  border-right: solid 5px #c35aec;
-  border-bottom: solid 5px #c35aec;
-  border-left: solid 5px #c35aec; }
 
 .videoIframe {
   font-size: 50px;
