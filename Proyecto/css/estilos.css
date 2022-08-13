@@ -238,8 +238,8 @@ footer {
     font-weight: 600;
     margin-bottom: 30px; }
   .pcArmada {
-    max-width: 200px;
-    max-height: 300px;
+    max-width: 300px;
+    max-height: 400px;
     margin-left: auto;
     margin-right: auto;
     bottom: 30px; }
@@ -277,6 +277,8 @@ footer {
     font-weight: 600; }
   .galeriaTitulo {
     font-size: 25px; }
+  .antesydespues {
+    font-size: 30px; }
   .imagenAntes1 {
     width: 150px;
     height: 150px;
