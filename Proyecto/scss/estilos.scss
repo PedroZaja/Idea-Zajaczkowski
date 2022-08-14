@@ -49,6 +49,15 @@ footer{
     background: #ff96ad;
     box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;}
 
+    .nav__flex {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        top: 30px;
+        left: 200px; }
+
 .tituloPrincipal{
     color: rgb(0, 0, 0);
     font-size: 50px;
