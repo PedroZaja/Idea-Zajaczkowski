@@ -4,37 +4,26 @@
 
 }
 
-html{
-    font-size: 100%;
-
-}
 
 body{
-    
     width: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 130vh;
     background-image: linear-gradient(to bottom, #7b6bd1, #6d6bc9, #616ac1, #5669b8, #4d67ae, #3464a3, #1b6195, #005c87, #005370, #004958, #003e42, #0a322f);
 
 }
 
-
-
-header{
-    background-color: 1F4690;
-   
-    
+main{
+    min-height: 100vh;
 }
+
 
 footer{
     min-height: 200px;
     
 }
 
-.navegacion{
-    text-align: center;
-}
+
 
 .navegacion_lista_link{
    background-color: rgb(14, 55, 238);
@@ -53,17 +42,7 @@ footer{
    font-size: 20px;
 }
 
-.nav__flex{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    justify-content: center;
-    top: 30px;
-    left: 200px;
-    
 
-}
 
 
 .navegacion_lista_link:hover{
@@ -78,26 +57,17 @@ footer{
     margin-top: 20px;
     text-decoration: underline;
 
-   
-     
 }
 
 .descripcionDeLaPaginaInicio{
-   
     font-size: 35px;
     text-align: center;
-    
 
-   
 }
 
 .logo{
     position: fixed;
     top: 15px;
-    border-top:solid 5px black;	
-    border-right:solid 5px black;
-    border-bottom:solid 5px black;
-    border-left:solid 5px black;
     margin-left: 15px;
     
 }
@@ -111,11 +81,6 @@ footer{
 
 }
 
-.descripcionDeLaPagina{
-    font-size: 35px;
-    text-align: center;
-    line-height: 40px;
-}
 
 .footer{
     text-align: center;
@@ -133,15 +98,11 @@ footer{
     border-right:solid 5px black;
     border-bottom:solid 5px black;
     border-left:solid 5px black;
-    
-    
-   
 }
 
 
 
 .backgroundTitulo{
-   
     background-color: rgb(73, 111, 216);
     width:  250px;
     height: 50px;
@@ -239,49 +200,9 @@ footer{
     
 }
 
-.fotosGaleria{
-    display: grid;
-    grid-template-columns: 40% 10% 40%;
-    grid-template-rows: 400px 400px;
-    justify-content: space-around;
-    justify-items: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
-}
 
-.imagenAntes1{
-    border-top:solid 5px rgb(195, 90, 236);	
-    border-right:solid 5px rgb(195, 90, 236);
-    border-bottom:solid 5px rgb(195, 90, 236);
-    border-left:solid 5px rgb(195, 90, 236);
-}
 
-.imagenAntes1:hover, .imagenAntes2:hover, .imagenDespues1:hover, .ImagenDespues2:hover{
-    transform: scale(1.2)
-    
-}
 
-.imagenAntes2{
-    border-top:solid 5px rgb(195, 90, 236);	
-    border-right:solid 5px rgb(195, 90, 236);
-    border-bottom:solid 5px rgb(195, 90, 236);
-    border-left:solid 5px rgb(195, 90, 236);
-}
-
-.imagenDespues1{
-    border-top:solid 5px rgb(195, 90, 236);	
-    border-right:solid 5px rgb(195, 90, 236);
-    border-bottom:solid 5px rgb(195, 90, 236);
-    border-left:solid 5px rgb(195, 90, 236);
-} 
-
-.ImagenDespues2{
-    border-top:solid 5px rgb(195, 90, 236);	
-    border-right:solid 5px rgb(195, 90, 236);
-    border-bottom:solid 5px rgb(195, 90, 236);
-    border-left:solid 5px rgb(195, 90, 236);
-}
 
 .videoIframe{
     font-size: 50px;
@@ -338,6 +259,21 @@ footer{
     transform: scale(1.5)
 }
 
+.sobreMi{
+    display: grid;
+     .sobreMi__titulo{
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 100px;
+        text-align: center;
+        text-decoration: underline;
+        }
+     .sobreMi__parrafo{   
+            font-size: 35px;
+            text-align: center;
+        }
+}
+
 @media screen and (min-width: 0px) and (max-width: 767px) {
     
     
@@ -368,8 +304,8 @@ footer{
     }
 
     .pcArmada{
-        max-width: 200px;
-        max-height: 300px;
+        max-width: 300px;
+        max-height: 500px;
         margin-left: auto;
         margin-right: auto;
         bottom: 30px;
@@ -430,38 +366,7 @@ footer{
         font-size: 25px;
     }
 
-    .imagenAntes1{
-        width: 150px;
-        height: 150px;
-        margin: 0px;
-        margin-right: 25px;
-    }
-
-    .imagenDespues1{
-        width: 150px;
-        height: 150px;
-        margin: 0px;
-        margin-left: 25px;
-    }
-    
-    .imagenAntes2{
-        width: 150px;
-        height: 150px;
-        margin: 0px;
-        margin-right: 25px;
-    }
-
-    .ImagenDespues2{
-        width: 150px;
-        height: 150px;
-        margin: 0px;
-        margin-left: 25px;
-    }
-
-    .fotosGaleria{
-        display: grid;
-        grid-template-rows: 200px;
-    }
+   
 
     .iframeVideo{
         height: 240px;
@@ -473,15 +378,18 @@ footer{
         font-size: 35px;
     }
 
-    .sectionGrid{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        margin-left: 0;
-        margin-top: 0;
-        margin-bottom: 20px;
+    
+
+    .sobreMi{
+        .sobreMi__titulo{
+            font-size: 35px;
+            text-align: center;
+        }
+        .sobreMi__parrafo{
+            font-size: 25px;
+            text-align: center;
+            margin: 20px;
+        }
     }
 
 
@@ -562,33 +470,7 @@ footer{
         font-size: 40px;
     }
 
-    .imagenAntes1{
-        width: 250px;
-        height: 250px;
-    }
-
-    .imagenDespues1{
-        width: 250px;
-        height: 250px;
-        
-    }
-    
-    .imagenAntes2{
-        width: 250px;
-        height: 250px;
-        
-    }
-
-    .ImagenDespues2{
-        width: 250px;
-        height: 250px;
-       
-    }
-
-    .fotosGaleria{
-        display: grid;
-        grid-template-rows: 300px;
-    }
+   
 
     .iframeVideo{
         height: 400px;
@@ -596,14 +478,6 @@ footer{
 
     }
 
-    .sectionGrid{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-content: space-between;
-        margin-left: 0;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
+   
 
 }
