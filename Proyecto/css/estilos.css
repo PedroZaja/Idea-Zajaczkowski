@@ -45,6 +45,7 @@ footer {
   left: 200px; }
 
 .tituloPrincipal {
+  font-family: 'Bebas Neue', cursive;
   color: black;
   font-size: 50px;
   font-style: arial;
@@ -53,6 +54,7 @@ footer {
   text-decoration: underline; }
 
 .descripcionDeLaPaginaInicio {
+  font-family: 'Bebas Neue', cursive;
   font-size: 35px;
   text-align: center; }
 
@@ -62,6 +64,7 @@ footer {
   margin-left: 15px; }
 
 .nombreDeLaPagina {
+  font-family: 'Orbitron', sans-serif;
   position: relative;
   font-size: 100px;
   text-align: right;
@@ -81,18 +84,8 @@ footer {
   border-bottom: solid 5px black;
   border-left: solid 5px black; }
 
-.backgroundTitulo {
-  background-color: #496fd8;
-  width: 250px;
-  height: 50px;
-  margin-inline: auto;
-  border: 1px;
-  border-top: solid 1px black;
-  border-right: solid 1px black;
-  border-bottom: solid 1px black;
-  border-left: solid 1px black; }
-
 .formulario_titulo {
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
   text-decoration: underline; }
 
@@ -101,8 +94,7 @@ footer {
   align-items: center;
   justify-content: center;
   align-content: center;
-  justify-items: center;
-  margin: 10px; }
+  justify-items: center; }
 
 .formulario_entero {
   text-align: center;
@@ -117,6 +109,7 @@ footer {
   border-bottom: solid 1px black;
   border-left: solid 1px black;
   font-weight: 600; }
+
 
 .boton_formulario {
   color: #101316;
@@ -163,7 +156,8 @@ footer {
 .videoIframe {
   font-size: 50px;
   text-align: center;
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin-top: 10px; }
 
 .iframeVideo {
   border-top: solid 5px #0623c4;
@@ -203,19 +197,21 @@ footer {
   display: grid; }
   .sobreMi .sobreMi__titulo {
     font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     line-height: 100px;
     text-align: center;
     text-decoration: underline; }
   .sobreMi .sobreMi__parrafo {
-    font-size: 35px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
     text-align: center; }
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .logo {
     position: static;
     margin: 10px;
-    height: 50px;
+    height: 80px;
     width: 80px; }
   .nav__flex {
     top: auto;
@@ -224,7 +220,8 @@ footer {
     font-size: 35px;
     margin-bottom: 10px; }
   .descripcionDeLaPaginaInicio {
-    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
     text-align: center;
     margin: 3px;
     font-weight: 600;
@@ -251,14 +248,14 @@ footer {
     height: 40px;
     margin-bottom: 30px;
     align-items: center;
-    margin: 10px; }
+    margin: 10px;}
   .boton_formulario_pos {
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
     justify-items: center;
-    margin: 10px; }
+    left: 10px}
   .formulario_mensaje {
     margin-bottom: 10px; }
   .formulario_input {
@@ -279,7 +276,7 @@ footer {
     font-size: 35px;
     text-align: center; }
   .sobreMi .sobreMi__parrafo {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin: 20px; } }
 
@@ -287,8 +284,8 @@ footer {
   .logo {
     position: static;
     margin: 10px;
-    height: 100px;
-    width: 160px; }
+    height: 130px;
+    width: 130px; }
   .nav__flex {
     top: auto;
     left: auto; }
