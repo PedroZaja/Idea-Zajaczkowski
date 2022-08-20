@@ -44,6 +44,20 @@ footer {
   top: 30px;
   left: 200px; }
 
+.tituloPrincipal {
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 50px;
+  font-style: arial;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline; }
+
+.descripcionDeLaPaginaInicio {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive; }
+
 .logo {
   position: fixed;
   top: 15px;
@@ -58,12 +72,106 @@ footer {
   margin-right: 20px; }
 
 .footer {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Orbitron', sans-serif;
   text-align: center;
   margin-bottom: 10px;
   font-size: 20px;
   margin-top: auto;
   color: aliceblue; }
+
+.pcArmada {
+  border-top: solid 5px black;
+  border-right: solid 5px black;
+  border-bottom: solid 5px black;
+  border-left: solid 5px black; }
+
+.backgroundTitulo {
+  background-color: #496fd8;
+  width: 250px;
+  height: 50px;
+  margin-inline: auto;
+  border: 1px;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black; }
+
+.formulario_titulo {
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  text-decoration: underline; }
+
+.boton_formulario_pos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  margin: 10px; }
+
+.formulario_entero {
+  text-align: center;
+  box-sizing: border-box; }
+
+.formulario_mensaje {
+  background-color: antiquewhite;
+  font-size: 2rem;
+  border: 1px;
+  border-top: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+  border-left: solid 1px black;
+  font-weight: 600; }
+
+.boton_formulario {
+  color: #101316;
+  position: relative;
+  font-size: 1.5rem;
+  width: 100px;
+  height: 50px;
+  top: 20px;
+  left: 20px;
+  margin: 10px; }
+
+.card_descripcion{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.card_explicacion{
+  font-size: 20px;
+}
+
+.galeriaTitulo {
+  display: grid;
+  font-size: 50px;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  text-decoration: underline; }
+
+  .antesydespues{
+    font-family: 'Bebas Neue', cursive;
+
+  }
+
+.videoIframe {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline; }
+
+.iframeVideo {
+  border-top: solid 5px #0623c4;
+  border-right: solid 5px #0623c4;
+  border-bottom: solid 5px #0623c4;
+  border-left: solid 5px #0623c4; }
+
+.divIframe {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .fa-instagram {
   color: #f03ed8;
@@ -92,116 +200,10 @@ footer {
 .fa-twitch:hover {
   transform: scale(1.5); }
 
-.tituloPrincipal {
-  font-family: 'Bebas Neue', cursive;
-  color: black;
-  font-size: 50px;
-  font-style: arial;
-  text-align: center;
-  margin-top: 20px;
-  text-decoration: underline; }
-
-.descripcionDeLaPaginaInicio {
-  font-size: 35px;
-  text-align: center;
-  font-family: 'Bebas Neue', cursive; }
-
-.pcArmada {
-  border-top: solid 5px black;
-  border-right: solid 5px black;
-  border-bottom: solid 5px black;
-  border-left: solid 5px black; }
-
-.tituloPrincipal {
-  font-family: 'Bebas Neue', cursive;
-  color: black;
-  font-size: 50px;
-  font-style: arial;
-  text-align: center;
-  margin-top: 20px;
-  text-decoration: underline; }
-
-.galeriaTitulo {
-  display: grid;
-  font-size: 50px;
-  grid-template-columns: 50% 50%;
-  justify-content: space-around;
-  align-items: center;
-  justify-items: center;
-  text-decoration: underline; }
-  .galeriaTitulo .antesydespues {
-    font-family: 'Bebas Neue', cursive; }
-
-.videoIframe {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 50px;
-  text-align: center;
-  text-decoration: underline; }
-
-.divIframe {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-  .divIframe .iframeVideo {
-    border-top: solid 5px #0623c4;
-    border-right: solid 5px #0623c4;
-    border-bottom: solid 5px #0623c4;
-    border-left: solid 5px #0623c4; }
-
-.backgroundTitulo {
-  background-color: #496fd8;
-  width: 250px;
-  height: 50px;
-  margin-inline: auto;
-  border: 1px;
-  border-top: solid 1px black;
-  border-right: solid 1px black;
-  border-bottom: solid 1px black;
-  border-left: solid 1px black; }
-  .backgroundTitulo .formulario_titulo {
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
-    text-decoration: underline; }
-
-.formulario_entero {
-  text-align: center;
-  box-sizing: border-box; }
-  .formulario_entero .boton_formulario_pos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    margin: 10px; }
-    .formulario_entero .boton_formulario_pos .boton_formulario {
-      color: #101316;
-      position: relative;
-      font-size: 1.5rem;
-      width: 100px;
-      height: 50px;
-      top: 20px;
-      left: 20px;
-      margin: 10px; }
-
-.tituloPrincipal {
-  font-family: 'Bebas Neue', cursive;
-  color: black;
-  font-size: 50px;
-  font-style: arial;
-  text-align: center;
-  margin-top: 20px;
-  text-decoration: underline; }
-
-.card_descripcion {
-  font-weight: 600;
-  text-decoration: underline; }
-
-.card_explicacion {
-  font-size: 20px; }
-
 .sobreMi {
   display: grid; }
   .sobreMi .sobreMi__titulo {
+    font-family: 'Bebas Neue', cursive;
     font-weight: bold;
     font-size: 50px;
     line-height: 100px;
@@ -215,18 +217,23 @@ footer {
   .logo {
     position: static;
     margin: 10px;
+    height: 50px;
     width: 80px; }
+  .nav__flex {
+    top: auto;
+    left: auto; }
   .tituloPrincipal {
     font-size: 35px;
     margin-bottom: 10px; }
   .descripcionDeLaPaginaInicio {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     margin: 3px;
     font-weight: 600;
     margin-bottom: 30px; }
   .pcArmada {
-    width: 300px;
+    max-width: 300px;
+    max-height: 500px;
     margin-left: auto;
     margin-right: auto;
     bottom: 30px; }
@@ -237,13 +244,8 @@ footer {
   .navegacion_lista_link {
     font-size: 20px;
     margin: 8px; }
-  .nav__flex {
-    left: auto; }
   .footer {
     font-size: 15px; }
-  .backgroundTitulo {
-    height: 45px;
-    width: 150px; }
   .boton_formulario {
     display: flex;
     justify-content: center;
@@ -259,6 +261,11 @@ footer {
     align-content: center;
     justify-items: center;
     margin: 10px; }
+  .formulario_mensaje {
+    margin-bottom: 10px; }
+  .formulario_input {
+    margin: 10px;
+    padding: 30px; }
   .descripcionDeLaPagina {
     font-size: 20px;
     font-weight: 600; }
@@ -282,7 +289,11 @@ footer {
   .logo {
     position: static;
     margin: 10px;
+    height: 100px;
     width: 160px; }
+  .nav__flex {
+    top: auto;
+    left: auto; }
   .tituloPrincipal {
     font-size: 45px;
     margin-bottom: 10px; }
@@ -292,30 +303,29 @@ footer {
     margin: 3px;
     font-weight: 600; }
   .pcArmada {
-    width: 500px;
+    max-width: 500px;
+    max-height: 700px;
     display: inline-block;
     position: relative;
     bottom: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto; }
+    margin-left: auto; }
   .nombreDeLaPagina {
     font-size: 70px;
     text-align: center;
     margin-right: auto; }
   .navegacion_lista_link {
-    font-size: 20px;
+    font-size: 30px;
     margin: 8px; }
-  .nav__flex {
-    left: auto; }
   .footer {
     font-size: 15px; }
-  .backgroundTitulo {
-    height: 45px;
-    width: 180px; }
   .boton_formulario {
     height: 30px; }
+  .formulario_mensaje {
+    margin-bottom: 10px; }
+  .formulario_input {
+    margin: 10px; }
   .descripcionDeLaPagina {
     font-size: 35px;
     font-weight: 600; }
