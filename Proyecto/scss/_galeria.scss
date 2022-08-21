@@ -1,7 +1,7 @@
 .tituloPrincipal {
     font-family: 'Bebas Neue', cursive;
     color: black;
-    font-size: 50px;
+    font-size: map-get($tamañoFuentes, titulo);
     font-style: arial;
     text-align: center;
     margin-top: 20px;
@@ -10,7 +10,7 @@
 
 .galeriaTitulo {
     display: grid;
-    font-size: 50px;
+    font-size: map-get($tamañoFuentes, titulo);
     grid-template-columns: 50% 50%;
     justify-content: space-around;
     align-items: center;
@@ -24,20 +24,17 @@
 
 .videoIframe {
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: map-get($tamañoFuentes, titulo);
     text-align: center;
     text-decoration: underline;
 }
 
 .divIframe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include center;
 
     .iframeVideo {
-        border-top: solid 5px #0623c4;
-        border-right: solid 5px #0623c4;
-        border-bottom: solid 5px #0623c4;
-        border-left: solid 5px #0623c4;
+        @extend .pcArmada;
+        box-shadow: 0 0 5px #dd1a1a, 0 0 25px #dd1a1a, 0 0 50px #dd1a1a, 0 0 200px #dd1a1a;
+        
     }
 }

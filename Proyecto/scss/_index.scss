@@ -1,7 +1,7 @@
 .tituloPrincipal {
     font-family: 'Bebas Neue', cursive;
-    color: black;
-    font-size: 50px;
+    color: $negro;
+    font-size: map-get($tamañoFuentes, titulo);
     font-style: arial;
     text-align: center;
     margin-top: 20px;
@@ -9,14 +9,15 @@
 }
 
 .descripcionDeLaPaginaInicio {
-    font-size: 35px;
+    font-size: map-get($tamañoFuentes, desc);
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
 
 .pcArmada {
-    border-top: solid 5px black;
-    border-right: solid 5px black;
-    border-bottom: solid 5px black;
-    border-left: solid 5px black;
+    border-top: solid 5px $azul;
+    border-right: solid 5px $azul;
+    border-bottom: solid 5px $azul;
+    border-left: solid 5px $azul;
+    box-shadow: 0 0 5px $azul;
 }

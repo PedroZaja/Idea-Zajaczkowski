@@ -1,5 +1,5 @@
 .navegacion_lista_link {
-    background-color: rgb(14, 55, 238);
+    background-color: rgb(199, 172, 172);
     font-weight: 700;
     width: 120px;
     margin: 5px;
@@ -8,7 +8,7 @@
     border-bottom: solid 2px;
     border-right: solid 2px;
     border-left: solid 2px;
-    border-color: blue;
+    border-color: rgb(0, 0, 0);
     text-align: center;
     justify-items: center;
     align-items: center;
@@ -16,8 +16,8 @@
 }
 
 .navegacion_lista_link:hover {
-    background: #ff96ad;
-    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+    background: $azul;
+    box-shadow: 0 0 5px $azul, 0 0 25px $azul, 0 0 50px $azul, 0 0 200px $azul;
 }
 
 .nav__flex {

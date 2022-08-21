@@ -1,11 +1,20 @@
 
 $negro: black;
 $azul: #0623c4;
-$colorIg: #f03ed8;
-$colorFb: #2828d1;
-$colorWS: #27c027;
-$colorYt: red;
-$colorTw: violet;
-
 
 $margenRedes: 15px;
+
+$redes:(
+    Fb: #2828d1,
+    Ig: #f03ed8,
+    Ws: #27c027,
+    Yt: rgb(199, 3, 3),
+    Tw: rgb(90, 9, 90),
+);
+
+$tamañoFuentes:(
+    titulo: 50px,
+    desc: 35px,
+);
+
+

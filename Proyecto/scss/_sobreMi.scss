@@ -3,14 +3,14 @@
 
     .sobreMi__titulo {
         font-weight: bold;
-        font-size: 50px;
+        font-size: map-get($tamañoFuentes, titulo);
         line-height: 100px;
         text-align: center;
         text-decoration: underline;
     }
 
     .sobreMi__parrafo {
-        font-size: 35px;
+        font-size: map-get($tamañoFuentes, desc);
         text-align: center;
     }
 }

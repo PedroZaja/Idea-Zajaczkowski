@@ -8,27 +8,27 @@
 }
 
 .fa-instagram {
-    color: $colorIg;
+    color: map-get($redes, Ig) ;
     margin: $margenRedes;
 }
 
 .fa-facebook {
-    color: $colorFb;
+    color: map-get($redes, Fb) ;
     margin: $margenRedes;
 }
 
 .fa-whatsapp {
-    color: $colorWS;
+    color: map-get($redes, Ws);
     margin: $margenRedes;
 }
 
 .fa-youtube {
-    color: $colorYt;
+    color: map-get($redes, Yt) ;
     margin: $margenRedes;
 }
 
 .fa-twitch {
-    color: $colorTw;
+    color: map-get($redes, Tw);
     margin: $margenRedes;
 }
 
