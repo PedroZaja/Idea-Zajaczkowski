@@ -239,9 +239,8 @@ footer {
     left: auto; }
   .footer {
     font-size: 15px; }
-  .backgroundTitulo {
-    height: 45px;
-    width: 150px; }
+  .formulario_titulo {
+    font-size: 10px; }
   .boton_formulario {
     display: flex;
     justify-content: center;
