@@ -1,14 +1,15 @@
 .tituloPrincipal {
     font-family: 'Bebas Neue', cursive;
-    color: black;
+    color: $negro;
     font-size: map-get($tamañoFuentes, titulo);
-    font-style: arial;
     text-align: center;
     margin-top: 20px;
     text-decoration: underline;
+    font-weight: 600;
 }
 
 .galeriaTitulo {
+    font-family: 'Bebas Neue', cursive;
     display: grid;
     font-size: map-get($tamañoFuentes, titulo);
     grid-template-columns: 50% 50%;

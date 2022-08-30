@@ -1,18 +1,16 @@
 .backgroundTitulo {
-    background-color: #496fd8;
-    width: 250px;
-    height: 50px;
+    
     margin-inline: auto;
     border: 1px;
-    border-top: solid 1px black;
-    border-right: solid 1px black;
-    border-bottom: solid 1px black;
-    border-left: solid 1px black;
+    
 
     .formulario_titulo {
         font-family: 'Bebas Neue', cursive;
         text-align: center;
         text-decoration: underline;
+        font-weight: 600;
+        color: $negro;
+        font-size: map-get($tamañoFuentes, titulo);
     }
 }
 
@@ -35,7 +33,6 @@
             width: 100px;
             height: 50px;
             top: 20px;
-            left: 20px;
             margin: 10px;
         }
     }
